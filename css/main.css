@@ -1,0 +1,125 @@
+/*** Darlene Flores ***/
+/*** Sep 30, 2019 ***/
+
+
+/*** BASE STYLES ***/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*** GRID ***/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 348px;
+  float: left;
+  height: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding: 25px;
+
+}
+
+/*** HEADER ***/
+header {
+  height: 400px;
+  padding-top: 25px;
+}
+
+header h1 {
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+header ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #77a466;
+    font-weight: lighter;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+header img {
+  border: 3px solid #77a466;
+}
+
+#about h1 {
+  color: #77a466;
+  font-size: 18px;
+}
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+#menu h1, #reviews h1, #contact h1 {
+  font-size: 12px;
+}
+#menu ul, #contact ul, #locations ul {
+  list-style: none;
+  padding: 0;
+}
+#menu li, #locations li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: lighter;
+}
+
+#contact li {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+footer .full-width {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  clear: both;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 16px;
+}
+
+footer h1 span {
+  color: #77a466;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+}
